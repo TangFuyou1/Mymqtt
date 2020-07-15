@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="温度：0"
+        android:textSize="20sp"
+        android:textColor="#2196F3"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/tv_humi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="湿度：0"
+        android:textSize="20sp"
+        android:textColor="#673AB7"
+        />
+    <Button
+        android:text="刷新"
+        android:layout_marginTop="15dp"
+        android:id="@+id/bt_gerdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
