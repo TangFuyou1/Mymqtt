@@ -299,7 +299,7 @@ public class AAOptionsConstructor
             AAYAxis aaYAxis = new AAYAxis()
                     .labels(aaYAxisLabels) //设置 y 轴是否显示数字
                     .min(aaChartModel.yAxisMin) //设置 y 轴最小值,最小值等于零就不能显示负值了
-                    .max((float) 50.0) //y轴最大值
+                    .max((float) 100.0) //y轴最大值
                     .allowDecimals(aaChartModel.yAxisAllowDecimals) //是否允许显示小数
                     .reversed(aaChartModel.yAxisReversed)
                     .gridLineWidth(aaChartModel.yAxisGridLineWidth) //y轴网格线宽度

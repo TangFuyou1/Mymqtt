@@ -160,12 +160,11 @@
                         android:layout_width="70dp"
                         android:layout_height="30dp"
                         android:background="@drawable/background_cycle3_green"
-                        android:onClick="Main_Click"
                         android:text="温度"
                         android:textSize="10dp" />
 
                     <Button
-                        android:id="@+id/choice_humidity"
+                        android:id="@+id/bt_humi"
                         android:layout_width="70dp"
                         android:layout_height="30dp"
                         android:layout_marginLeft="10dp"
@@ -182,12 +181,10 @@
                     android:layout_marginTop="5dp"
                     android:background="#03A9F4"
                     tools:ignore="MissingConstraints">
-
                     <com.google.android.material.appbar.AppBarLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:theme="@style/AppTheme.AppBarOverlay" />
-
                     <include
                         layout="@layout/content_special_chart"
                         tools:layout_editor_absoluteX="-16dp"
